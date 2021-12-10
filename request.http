@@ -1,0 +1,20 @@
+post http://localhost:5000/product/create
+Content-Type: application/json
+
+{
+    "TenSP" : "San pham 4",
+    "DonGia": "4000000",
+    "SoLuong" : "40",
+    "MaTL" : "1111"
+}
+
+###
+
+post http://localhost:5000/bill/create
+Content-Type: application/json
+
+{
+     "MaSP" : "1000",
+    
+     "SoLuong" : "10"
+}
